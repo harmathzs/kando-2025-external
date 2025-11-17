@@ -1,5 +1,5 @@
 /** hello.js - GET /hello */
-exports.handler = (event) => {
+module.exports.handler = async (event) => {
     console.log('/hello event', event)
 
     return {
