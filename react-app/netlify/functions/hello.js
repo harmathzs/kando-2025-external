@@ -5,6 +5,6 @@ exports.handler = (event) => {
     return {
         statusCode: 200,
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify('Hello Lajos')
+        body: JSON.stringify({message: 'OK'})
     }
 }
